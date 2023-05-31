@@ -1,0 +1,36 @@
+{
+	"name": "console-icons",
+	"version": "1.0.0",
+	"description": "Console log icons",
+	"license": "MIT",
+	"repository": "freddy-daniel/console-icons",
+	"author": {
+		"name": "Freddy Daniel",
+		"email": "freddy.send@gmail.com"
+	},
+	"engines": {
+		"node": ">=10"
+	},
+	"scripts": {
+		"test": "xo && ava && tsd"
+	},
+	"files": [
+		"index.js",
+		"index.d.ts",
+		"browser.js"
+	],
+	"keywords": [
+		"terminal",
+		"cmd",
+		"icons",
+		"log",
+		"symbols",
+		"cli",
+		"console"
+	],
+	"dependencies": {
+		"chalk": "^4.1.0",
+		"is-unicode-supported": "^0.1.0"
+	},
+	"browser": "browser.js"
+}
